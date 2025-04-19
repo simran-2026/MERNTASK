@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Builderz - Construction Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .top-bar {
+            background-color: #f1b600;
+            padding: 10px 0;
+            color: black;
+            font-weight: bold;
+        }
+        .navbar {
+            background-color: #001f3f !important;
+        }
+        .navbar a {
+            color: white !important;
+        }
+        .hero-section {
+            background: url('image/bs-task-2-img.png') center/cover no-repeat;
+            height: 300px;
+            color: white;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+
+        }
+        .feature-box {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .bg-dark-blue {
+            background-color: #001f3f;
+        }
+        .bg-yellow {
+            background-color: #f1b600;
+            color: black;
+        }
+        .btn-custom {
+            border: 2px solid white;
+            color: white;
+            background-color: transparent;
+            padding: 8px 12px;
+        }
+        .btn-custom:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .navbar-brand { font-weight: bold; font-size: 28px; }
+        .top-bar { background: #f4b400; padding: 15px 0; color: black; font-size: 14px; }
+        .top-bar .icon-text { display: flex; align-items: center; gap: 8px; }
+        .top-bar .icon-text i { font-size: 18px; }
+        .navbar { background: #0e1726 !important; padding: 10px 0; }
+        .navbar-nav .nav-link { color: white; font-weight: 500; }
+        .navbar-nav .nav-link.active { color: #f4b400; }
+        .get-quote-btn { border: 2px solid white; padding: 5px 15px; color: white; text-decoration: none; }
+        .get-quote-btn:hover { background: white; color: black; }
+        .hero-section { position: relative; text-align: center; color: white; }
+        .hero-section img { width: 100%; height: auto; }
+        .hero-text { 
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 10px; 
+            text-align: center;
+        }
+        .hero-text h2 { font-size: 24px; }
+        .hero-text h1 { font-size: 48px; font-weight: bold; }
+        .hero-text button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar text-center">
+        <div class="container d-flex justify-content-between">
+            <span>Opening Hours: Mon - Fri, 8:00 - 9:00</span>
+            <span>Call Us: +012 345 6789</span>
+            <span>Email: info@example.com</span>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">Builderz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h2>We Are Professional</h2><br>
+        <h1>For Your Dream Project</h1><br>
+        <button class="btn btn-custom mt-2">Get A Quote</button>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box bg-dark-blue p-4 rounded">
+                    <h4>Expert Worker</h4>
+                    <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box bg-yellow p-4 rounded">
+                    <h4>Quality Work</h4>
+                    <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit.</p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box bg-dark-blue p-4 rounded">
+                    <h4>24/7 Support</h4>
+                    <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
